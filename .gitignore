@@ -1,0 +1,25 @@
+# Log file
+*.log
+*.log.*
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/target/
+/.settings/
+/.classpath
+/.project
+
+# CI/CD
+compiled.yml
+format.yml
+
+# validation app
+.vscode/
+validation/**/*.txt
+validation/**/*.json
+__pycache__
+.env
+htmlcov/
+.coverage
+pytest_cache
+Mercury/
