@@ -1,4 +1,4 @@
-## To solve certificate issue such as:
+## Solve certificate issue such as:
 
 
 ##### sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path
