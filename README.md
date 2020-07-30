@@ -1,11 +1,14 @@
 ## To solve certificate issue such as:
 
-```java
-[ERROR] Non-resolvable import POM: Could not transfer artifact org.alfresco:alfresco-platform-distribution:pom:5.2.4 from/to alfresco-private (https://artifacts.alfresco.com/nexus/content/groups/private/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target @ line 168, column 16 -> [Help 2]
-```
-### Mainly below given error:
 
 ##### sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path
+
+I was getting below error and fixed it by installing the certificate:
+
+
+```
+[ERROR] Non-resolvable import POM: Could not transfer artifact org.alfresco:alfresco-platform-distribution:pom:5.2.4 from/to alfresco-private (https://artifacts.alfresco.com/nexus/content/groups/private/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target @ line 168, column 16 -> [Help 2]
+```
 
 
 Java program written by Andreas Sterbenz, and posted on a blog in Oct, 2006:
